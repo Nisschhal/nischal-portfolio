@@ -19,7 +19,7 @@ const Header = () => {
         </Link>
 
         {/* // DESKTOP NAVIGATION */}
-        <div className="hidden xl:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8">
           <Nav />
           <Link href={"/contact"}>
             <Button>Hire me</Button>
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
 
         {/* // MOBILE NAVIGATION */}
-        <div className="xl:hidden">mobile nav</div>
+        <div className="lg:hidden">mobile nav</div>
       </div>
     </header>
   );

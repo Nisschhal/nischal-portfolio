@@ -31,3 +31,13 @@ This is a personal project to showcase my work and skills.
 
 - **global.css:**
   - applied the required styles for the body: <i>check out the code</i>
+
+### Dependencies:
+
+- **framer-motion**: Animation
+
+### UI Designs
+
+- Array[ ] of nav items to map links in header bar and colors
+- **PageTransition** to **Rootlayout**
+-
