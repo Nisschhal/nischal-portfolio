@@ -19,8 +19,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
+        {/* Header: NavBar */}
         <Header />
+        {/* Stair Transition: For page/route change */}
         <StairTransition />
+        {/*  PageTransition smooth animation for mount and unmount(exit animation) */}
         <PageTransition>{children}</PageTransition>
       </body>
     </html>
