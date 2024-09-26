@@ -35,6 +35,7 @@ This is a personal project to showcase my work and skills.
 ### Dependencies:
 
 - **framer-motion**: Animation
+- **react-icon**: Icons
 
 ### UI Designs
 

@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 
 // local components
 import Nav from "./Nav";
+import MobileNav from "@/app/components/MobileNav";
 const Header = () => {
   return (
     // HEADER
@@ -27,7 +28,9 @@ const Header = () => {
         </div>
 
         {/* // MOBILE NAVIGATION */}
-        <div className="lg:hidden">mobile nav</div>
+        <div className="lg:hidden">
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
