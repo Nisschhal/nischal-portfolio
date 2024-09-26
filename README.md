@@ -41,4 +41,10 @@ This is a personal project to showcase my work and skills.
 
 - Array[ ] of nav items to map links in header bar and colors
 - **PageTransition** to **Rootlayout**
--
+- **StairTransition** in layout but after <header> as header need to be shown
+- **Desktop** navbar with modified `shadcn` button
+- **Mobile** navbar with `shadcd` components: sheet; sheettrigger, sheetcontent and few modification on it
+
+### HomePage -- Hero Section
+
+-  
