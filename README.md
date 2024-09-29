@@ -36,6 +36,7 @@ This is a personal project to showcase my work and skills.
 
 - **framer-motion**: Animation
 - **react-icon**: Icons
+- **react-countup**: Count the number to given point
 
 ### UI Designs
 
@@ -47,4 +48,4 @@ This is a personal project to showcase my work and skills.
 
 ### HomePage -- Hero Section
 
--  
+-
