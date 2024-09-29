@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Social from "./components/Social";
+import Image from "next/image";
+import Photo from "./components/Photo";
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
       <div className="container mx-auto h-full">
         <div className="flex flex-col lg:flex-row items-center justify-between lg:pt-8 lg:pb-24">
           {/* TEXT || SELF INTRO */}
-          <div className="text-center lg:text-left ">
+          <div className="text-center lg:text-left order-2 lg:order-none">
             {/* Role Position || Experties */}
             <span className="text-2xl">Software Developer</span>
             {/* Name */}
@@ -50,7 +52,9 @@ export default function Home() {
             </div>
           </div>
           {/* SELF PHOTO */}
-          <div>photo</div>
+          <div className="order-1 lg:order-none mb-6 lg:mb-0 ">
+            <Photo />
+          </div>
         </div>
       </div>
     </main>
